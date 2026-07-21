@@ -1,0 +1,28 @@
+# --- ENTORNO VIRTUAL ---
+# Nunca subir las librerías instaladas ni el entorno local
+.venv/
+
+# --- ARCHIVOS DE CONFIGURACIÓN Y SECRETOS ---
+# Crucial para no exponer tus claves de API
+.env
+
+# --- BASE DE DATOS VECTORIAL Y ARCHIVOS GENERADOS ---
+
+# Opcional: Descomenta la siguiente línea si NO quieres subir la DB vectorial generada
+# ../db/
+# db/
+
+# --- ARCHIVOS DE PYTHON / COMPILADOS ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- ARCHIVOS DE CONFIGURACIÓN DE EDITOR / IDE ---
+.vscode/
+.idea/
+*.swp
+
+# --- ARCHIVOS DEL SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
