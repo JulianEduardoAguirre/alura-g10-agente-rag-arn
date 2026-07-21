@@ -4,6 +4,7 @@
 Este proyecto es una aplicación interactiva desarrollada con **Streamlit** que funciona como un asistente inteligente para la consulta de documentación normativa oficial emitida por la **Autoridad Regulatoria Nuclear (ARN)** de la República Argentina, focalizada en **Reactores de Investigación**.
 
 Ejecutable en [https://alura-g10-agente-rag-arn.streamlit.app/](https://alura-g10-agente-rag-arn.streamlit.app/)
+
 ---
 
 ## 🎯 Objetivo
@@ -27,38 +28,43 @@ El sistema combina técnicas modernas de Inteligencia Artificial Generativa y re
    ```bash
    git clone [https://github.com/JulianEduardoAguirre/alura-g10-agente-rag-arn.git](https://github.com/JulianEduardoAguirre/alura-g10-agente-rag-arn.git)
    cd alura-g10-agente-rag-arn
-
+	```
 2. **Crear y activar el entorno virtual:**
+   ```bash
 	python -m venv .venv
-	# En Windows:
+   ```
+	En Windows:
+   ```bash
 	.venv\Scripts\Activate.ps1
-	# En Mac/Linux:
+   ```	
+   En Mac/Linux:
+	```bash
 	source .venv/bin/activate
-
-3. **Instala dependencias:**
-  ```bash
+   ```
+ 
+3. **Instala las dependencias:**
+  	```bash
 	pip install -r requirements.txt
+  	```
 
 4. **Configurar las variables de entorno:**
+	
 	Crea un archivo '.env' en la carpeta raíz del proyecto (ejemplo: .env.example) y copia
 	tu clave API de Cohere
 
 4. **Ejecutar la aplicación:**
 	```bash
 	streamlit run app.py
+	```
 
 ## 🚀 Ejemplo de interacción con el Agente
 - **Usuario:**  ¿Cuáles son los límites de dosis para trabajadores en reactores nucleares en vigencia actualmente?
 - **Agente:** Según la Norma AR 10.1.1, los límites de dosis para trabajadores en reactores nucleares de investigación son los siguientes: 
 							Dosis efectiva: 20 mSv por año, considerado como el promedio en 5 años consecutivos (100 mSv en 5 años), no pudiendo excederse 50 mSv en ninguno de los años individuales...
 							.
-							.
-							.
 							Normas aplicables:
-
 							Norma AR 10.1.1 (Norma Básica de Seguridad Radiológica - Revisión 4)
 							Norma AR 4.1.1 (Exposición Ocupacional en Reactores Nucleares de Investigación). 🔍
-
 ---
 
 **Creado por Julián Eduardo Aguirre**  
