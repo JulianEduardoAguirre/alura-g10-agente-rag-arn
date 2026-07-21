@@ -1,6 +1,10 @@
 # Challenge ALURA LATAM - G10 - Tech AI
 # ⚛️ Asistente Regulatorio Nuclear — Reactores de Investigación (Argentina)
 
+<p align="center">
+  <img src="app_streamlit_agente_RAG.jpg" alt="Vista previa del Asistente" width="600">
+</p>
+
 Este proyecto es una aplicación interactiva desarrollada con **Streamlit** que funciona como un asistente inteligente para la consulta de documentación normativa oficial emitida por la **Autoridad Regulatoria Nuclear (ARN)** de la República Argentina, focalizada en **Reactores de Investigación**.
 
 Ejecutable en [https://alura-g10-agente-rag-arn.streamlit.app/](https://alura-g10-agente-rag-arn.streamlit.app/)
